@@ -1,0 +1,3 @@
+Files are too large for Github.
+Download from http://yann.lecun.com/exdb/mnist/
+Unzip into this directory.
