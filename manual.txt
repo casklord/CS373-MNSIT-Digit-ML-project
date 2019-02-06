@@ -1,0 +1,19 @@
+External Libraries Used: 
+Scikit, Numpy, MatPlotLib
+
+Command Line Instructions: 
+"python classifier.py arg1 arg2 arg3"
+where
+arg1 is the number of epochs
+arg2 is learning rate (gamma)
+arg3 is penalty
+
+Eg. "python classifier.py 3 0.01 4"
+
+We will print the accuracy rate for all the digits, for all the epochs when this command is run.
+
+The dataset needs to be in the same directory as the code.
+
+DISCLAIMER: The number of epochs can make the computation time increase. With over 10 epochs, the computation time is over a minute. For the generation of graphs, we have to run for 100 epochs which will take time.
+
+To generate the graphs, comment out the part of the script generateGraphs.py if you don't want to see a certain plot. Otherwise, it will create all the plots. 
